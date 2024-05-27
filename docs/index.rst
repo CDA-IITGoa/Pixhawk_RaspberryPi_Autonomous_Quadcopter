@@ -347,15 +347,9 @@ Firmware Installation
     * Open the Mission Planner and connect the Pixhawk via a USB cable.
     * In the setup section, install the latest version of Arducopter firmware for quadcopter, selecting the Pixhawk 1 board.
     * Complete all mandatory setup and calibration steps. Refer to the provided video for guidance.
-      How To Make a Quadcopter Drone Using Pixhawk In Detail || DIY Quadcopter Using Pixhawk
+      https://youtu.be/j3sjFCG0vjE?si=gvM45NWtBr2Fqrqd
     * Once calibration is complete and any pre-arm issues are resolved, set up desired flight modes on a channel, typically including altitude hold, loiter, and land modes. Pitch channel will need to be reversed. Output format should be ppm. Channel 5 should be mapped to switch with 3 states for flight modes.
-      FlySky FS-i6X How to Setup TOP 5 FUNCTIONS for BEGINNER PILOTS
-
-Build Videos
-------------
-    * Make Your Own Pixhawk Raspberry Pi Drone in 36 Minutes (2020) | The Ultimate Project Drone
-    * Ardupilot setup (starts from 10 mins onwards)
-    * How To Make a Quadcopter Drone Using Pixhawk In Detail || DIY Quadcopter Using Pixhawk
+      https://www.youtube.com/watch?v=lxE4K7ghST0
 
 Build Videos
 ============
@@ -363,17 +357,6 @@ https://youtu.be/kB9YyG2V-nA?si=8iQwBggDfUdD19se
 Ardupilot setup (starts from 10 mins onwards)
 https://youtu.be/j3sjFCG0vjE?si=yvv0RM1f4Hz7nO5n&t=625
 
-About Project
-=============
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
