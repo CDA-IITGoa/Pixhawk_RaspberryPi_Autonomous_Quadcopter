@@ -301,40 +301,99 @@ Step-By-Step Build Guide
 Soldering
 ---------
     * If the ESCs don't come pre-soldered, solder the bullet connector onto them.
-      https://youtu.be/tNdO3TJZ3N8?si=piAWnS7TkZyx7zI_
+
+    .. youtube:: tNdO3TJZ3N8
+        :width: 640
+        :height: 360
+        :align: center
+
     * Attach the ESC to the PDB (power distribution board) i.e. also the bottom plate of the frame.
-      https://youtu.be/YCCexJwHwww?si=LV6hDpl96ZlweH-T
+
+    .. youtube:: YCCexJwHwww
+        :width: 640
+        :height: 360
+        :align: center
+
     * Solder the XT60 connector for the battery and the barrel connector onto the frame.
-      https://youtu.be/fb1aYwV7SJg?si=UxUOzsyDRiUhCQEx
+
+    .. youtube:: fb1aYwV7SJg
+        :width: 640
+        :height: 360
+        :align: center
+
     * Affix the bottom plate (PDB) of the frame to the arms, ensuring the soldered connections are inside. For quadcopters, position the red arms towards the drone's forward direction.
-      https://youtu.be/fb1aYwV7SJg?si=UxUOzsyDRiUhCQEx
+
+    .. youtube:: fb1aYwV7SJg
+        :width: 640
+        :height: 360
+        :align: center
 
 Motor and Propeller Installation
 --------------------------------
     * Attach the motors to the arms following the propeller rotation convention: Forward right - Counter Clockwise (CCW), Forward left - Clockwise (CW), Backward right - CW, Backward left - CCW. Consider using soft mounts if available.
-      https://youtu.be/hNkZ9KcXx2c?si=8g1-t7sXP_akIEEh
+
+    .. youtube:: hNkZ9KcXx2c
+        :width: 640
+        :height: 360
+        :align: center
+
     * Once motors are installed, secure the top plate of the frame and attach the GPS stand to it.
-      https://youtu.be/fAu5Yjmyc5w?si=2_1SyQDkZOPabSrI
-      https://youtu.be/Ut4apTpMLts?si=LXwQtkReUxC-OGCf
+
+    .. youtube:: fAu5Yjmyc5w
+        :width: 640
+        :height: 360
+        :align: center
+
+    .. youtube:: Ut4apTpMLts
+        :width: 640
+        :height: 360
+        :align: center
 
 Camera Setup
 ------------
     * Insert the camera flex cable into the CSI port of the Raspberry Pi and connect the other end to the camera.
-      https://youtu.be/VzYGDq0D1mw?si=eZQLDXn_JO3SlFE7
+
+    .. youtube:: VzYGDq0D1mw
+        :width: 640
+        :height: 360
+        :align: center
 
 Securing Components
 -------------------
     * Use zip ties to fasten the ESCs to the frame arms.
-      https://youtu.be/Iw7rsEqPqxA?si=6_5Djcio2-d5hL6_
+
+    .. youtube:: Iw7rsEqPqxA
+        :width: 640
+        :height: 360
+        :align: center
+
     * Secure the Raspberry Pi with a case using double-sided tape.
     * Place the vibration damper on top of the Raspberry Pi case using double-sided tape.
     * Affix the Pixhawk onto the vibration damper with double-sided tape.
-      https://youtu.be/kB9YyG2V-nA?si=Gj4cT7KVVbkmQTus
+
+    .. youtube:: kB9YyG2V-nA
+        :width: 640
+        :height: 360
+        :align: center
+
     * Secure additional components like the receiver, safety switch, buzzer, and telemetry using zip ties and double-sided tape.
-      https://youtu.be/DGAB34fJQFc?si=8hRTWqMT_MdT8OyN
-      https://youtu.be/JmPtCAqSm_s?si=L2XKtasFz7ZLn-dL
+
+    .. youtube:: DGAB34fJQFc
+        :width: 640
+        :height: 360
+        :align: center
+
+    .. youtube:: JmPtCAqSm_s
+        :width: 640
+        :height: 360
+        :align: center
+
     * Secure the buck converter to the frame using zip ties and double-sided tape.
-      https://youtu.be/UdbI2M66cQM?si=gXSSFBcsyRMaBlPz
+
+    .. youtube:: UdbI2M66cQM
+        :width: 640
+        :height: 360
+        :align: center
 
 Electrical Connections
 ----------------------
@@ -347,15 +406,34 @@ Firmware Installation
     * Open the Mission Planner and connect the Pixhawk via a USB cable.
     * In the setup section, install the latest version of Arducopter firmware for quadcopter, selecting the Pixhawk 1 board.
     * Complete all mandatory setup and calibration steps. Refer to the provided video for guidance.
-      https://youtu.be/j3sjFCG0vjE?si=gvM45NWtBr2Fqrqd
+
+    .. youtube:: j3sjFCG0vjE
+        :width: 640
+        :height: 360
+        :align: center
+
     * Once calibration is complete and any pre-arm issues are resolved, set up desired flight modes on a channel, typically including altitude hold, loiter, and land modes. Pitch channel will need to be reversed. Output format should be ppm. Channel 5 should be mapped to switch with 3 states for flight modes.
-      https://www.youtube.com/watch?v=lxE4K7ghST0
+
+    .. youtube:: lxE4K7ghST0
+        :width: 640
+        :height: 360
+        :align: center
 
 Build Videos
 ============
-https://youtu.be/kB9YyG2V-nA?si=8iQwBggDfUdD19se
+
+.. youtube:: kB9YyG2V-nA
+    :width: 640
+    :height: 360
+    :align: center
+
 Ardupilot setup (starts from 10 mins onwards)
-https://youtu.be/j3sjFCG0vjE?si=yvv0RM1f4Hz7nO5n&t=625
+
+.. youtube:: j3sjFCG0vjE
+    :width: 640
+    :height: 360
+    :align: center
+
 
 .. toctree::
    :maxdepth: 2
