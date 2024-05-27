@@ -217,7 +217,7 @@ Motor - 920 kV, 30A ESC 3C Lipo
 -------------------------------
 
 .. image::
-    images/CCWbldc.png
+    images/SimonK-30A-BLDC-ESC-2.png
     :width: 30%
 .. image::
     images/CWbldc.png
@@ -434,6 +434,12 @@ Ardupilot setup (starts from 10 mins onwards)
     :height: 360
     :align: center
 
+Help and Queries
+================
+
+We recommend creating an issue on github for queries related to making changes to the documentation. We are open to contribution so pull request for any corrections or additions are welcome.
+
+For other Queries and Help please send a well written mail to the email id - "drones.center@iitgoa.ac.in" 
 
 .. toctree::
    :maxdepth: 2
